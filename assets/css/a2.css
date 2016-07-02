@@ -1,0 +1,76 @@
+/* start page */
+
+div#start_page{
+	border:1px solid black;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	position: relative;
+	background: url("../images/cartoon-universe.jpg") no-repeat;
+	background-size:  500px 500px;
+}
+
+div#start_page h1, div#game_page h1{
+	position: absolute;
+	left: 15%;
+	font-size: 40px;
+	color: white;
+	padding: 10px;
+	background: #a366ff;
+	border: 4px solid #d1b3ff;
+}
+
+div#start_page p, div#game_page p{
+	position: absolute;
+	top:20%;
+	left: 35%;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	background: #ffb3ff;
+	border: 4px solid #ffb3b3;
+}
+
+button#start_button, button#next_button{
+	position: absolute;
+	bottom: 20%;
+	left: 40%;
+	color: white;
+	background: #3498db;
+	font-family: Arial;
+	font-size: 40px;
+	border-radius: 25px;
+	padding: 5px 5px 5px 5px;
+}
+
+/* game page */
+div#game_page{
+	border:2px solid black;
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	position: absolute;
+	z-index:1;
+	background: url("../images/cartoon-next-page.jpg") no-repeat;
+	background-size:  500px 500px;
+}
+
+div#game_page h1{
+	left: 34%;
+}
+
+div#game_page p{
+	left: 40%;
+}
+
+.fin_button {
+	left: 35%;
+}
+
+/* canvas */
+canvas{
+	border: 2px solid #751aff;
+	background: 
+		linear-gradient(to bottom right,rgba(0,0,102,0.4),
+		rgba(41,41,61,0.2));
+}

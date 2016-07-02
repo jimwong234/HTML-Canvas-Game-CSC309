@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jing and Jhe"> 
+	<meta name="description" content="canvas game for assigment2">
+	<title>Canvas Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/a2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+	<!-- start page-->
+	<div id="start_page">
+		<h1>Save The Universe</h1>
+		<p>High Score:<span id="high_score"></span></p>
+		<button id="start_button">START</button>
+	</div>
+	<!-- game page-->
+	<div id="game_page">
+		<h1>Level#<span id="level"></span></h1>
+		<p>Score:<br><span id="score"></span></p>
+		<button id="next_button"><span id="button_name"></span></button>
+	</div>
+	
+	<img id="blackhole" style="display: none;" src='assets/images/black.svg' >
+	<img id="bluehole" style="display: none;" src='assets/images/blue.svg'>
+	<img id="purplehole" style="display: none;" src='assets/images/purple.svg'>
+
+	<!-- game canvas-->
+	<canvas id="game" width="1000" height="640"></canvas>
+	
+	<!-- scripts-->
+	<script src="assets/javascript/a2.js"></script>
+</body>
+</html>
